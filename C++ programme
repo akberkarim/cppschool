@@ -1,0 +1,64 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+ 
+ 
+  char name[20],fathers_name[30];
+ 
+    int physics,maths,pst,computer,obtained_marks,total_marks=400;
+ 
+    float average,percentage;
+ 
+ 
+                cout<<"\t\tAga Khan Higher Secondary School,Gilgit";
+ cout<<"\n";
+    cout<<"\t\t\t****MARKSHEET FOR GRADE 12****";
+     cout<<"\n";
+                cout<<"please enter your name:";
+            cin>>name;
+                cout<<"\n";
+ 
+                   cout<<"please enter your fathers name:";
+            cin>>fathers_name;
+                cout<<"\n";
+ 
+    cout<<"enter your marks in physics:";
+        cin>>physics;
+    cout<<"\n";
+ 
+        cout<<"enter your marks in maths:";
+        cin>>maths;
+    cout<<"\n";         
+ 
+ 
+               cout<<"enter your marks in pst:";
+        cin>>pst;
+    cout<<"\n";  
+ 
+             cout<<"enter your marks in computer:";
+        cin>>computer;
+    cout<<"\n";    
+ 
+             obtained_marks=physics+maths+pst+computer;
+     cout<<"your obtained_marks is:"<<obtained_marks;
+            cout<<"\n";
+ 
+            average=obtained_marks/4;
+ 
+    cout<<"your average marks is:"<<average;
+             cout<<"\n";   
+ 
+ 
+            percentage=obtained_marks/total_marks*100;
+ 
+            cout<<"your percentage is:"<<percentage;
+             cout<<"\n"; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    return 0;}
